@@ -74,9 +74,6 @@ I'm a passionate Full Stack Developer focused on building digital solutions that
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=juankAnez&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juankAnez&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -96,7 +93,6 @@ I'm a passionate Full Stack Developer focused on building digital solutions that
 
 ## 📌 Proyectos Destacados
 
-## 📌 Proyectos Destacados
 
 <div align="center">
 
