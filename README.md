@@ -99,7 +99,7 @@ I'm a passionate Full Stack Developer focused on building digital solutions that
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🪙 Educoin</h3>
+      <h3 align="center">🪙 Edubid</h3>
       <div align="center">
         <a href="https://github.com/juankAnez/educoin" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=educoin&theme=tokyonight&hide_border=true&show_owner=true" alt="educoin" width="100%"/>
@@ -113,7 +113,7 @@ I'm a passionate Full Stack Developer focused on building digital solutions that
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">🌐 DW juankAnez</h3>
+      <h3 align="center">🌐 electronic-app</h3>
       <div align="center">
         <a href="https://github.com/DW-2026-ISem/dw-juankAnez" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=DW-2026-ISem&repo=dw-juankAnez&theme=tokyonight&hide_border=true&show_owner=true" alt="dw-juankAnez" width="100%"/>
