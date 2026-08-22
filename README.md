@@ -91,95 +91,109 @@ I'm a passionate Full Stack Developer focused on building digital solutions that
 
 ---
 
-## 📌 Proyectos Destacados
+## 🐍 Easter Egg: Snake Game
 
+¿Aburrido de gestionar citas? ¡Juega Snake directamente desde el panel administrativo de **KAIROS**!
 
-<div align="center">
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🪙 Edubid</h3>
-      <div align="center">
-        <a href="https://github.com/juankAnez/educoin" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=educoin&theme=tokyonight&hide_border=true&show_owner=true" alt="educoin" width="100%"/>
-        </a>
-        <br/><br/>
-        <p>Plataforma educativa con sistema de monedas digitales para incentivar el aprendizaje.</p>
-        <br/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">🌐 electronic-app</h3>
-      <div align="center">
-        <a href="https://github.com/DW-2026-ISem/dw-juankAnez" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=DW-2026-ISem&repo=dw-juankAnez&theme=tokyonight&hide_border=true&show_owner=true" alt="dw-juankAnez" width="100%"/>
-        </a>
-        <br/><br/>
-        <p>Proyecto de desarrollo web full stack con arquitectura moderna y buenas prácticas.</p>
-        <br/>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🧪 Prueba de Calidad</h3>
-      <div align="center">
-        <a href="https://github.com/juankAnez/prueba-de-calidad" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=prueba-de-calidad&theme=tokyonight&hide_border=true&show_owner=true" alt="prueba-de-calidad" width="100%"/>
-        </a>
-        <br/><br/>
-        <p>Suite de pruebas y control de calidad para aplicaciones web modernas.</p>
-        <br/>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white"/>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">📦 Inventario Sucursal</h3>
-      <div align="center">
-        <a href="https://github.com/juankAnez/inventario_sucursal-frontend" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=inventario_sucursal-frontend&theme=tokyonight&hide_border=true&show_owner=true" alt="inventario-frontend" width="100%"/>
-        </a>
-        <br/><br/>
-        <p>Frontend para sistema de gestión de inventario por sucursales en tiempo real.</p>
-        <br/>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-      </div>
-    </td>
-  </tr>
-</table>
-
+```html
+<!-- Código completo del juego (versión HTML + CSS + JS puro) -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #1a1a2e; }
+  canvas { border: 2px solid #c9a84c; background: #16213e; }
+  .score { color: #c9a84c; font-family: Arial; font-size: 20px; text-align: center; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<div>
+  <div class="score">Puntuación: <span id="score">0</span></div>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
 </div>
+<script>
+// Configuración del juego
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+const gridSize = 20;
+const tileCount = canvas.width / gridSize;
 
----
+let snake = [{x: 10, y: 10}];
+let direction = {x: 0, y: 0};
+let food = {x: 15, y: 10};
+let score = 0;
+let gameOver = false;
 
-## 🤝 Contacto
+function generateFood() {
+  food = {
+    x: Math.floor(Math.random() * tileCount),
+    y: Math.floor(Math.random() * tileCount)
+  };
+  if (snake.some(segment => segment.x === food.x && segment.y === food.y)) {
+    generateFood();
+  }
+}
 
-<div align="center">
+function draw() {
+  ctx.fillStyle = '#16213e';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](TU_LINK)
-[![Portfolio](https://img.shields.io/badge/Portfolio-3B6D11?style=for-the-badge&logo=vercel&logoColor=white)](TU_LINK)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU_EMAIL)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](TU_LINK)
+  ctx.fillStyle = '#4ade80';
+  snake.forEach((segment, index) => {
+    ctx.fillRect(segment.x * gridSize, segment.y * gridSize, gridSize-2, gridSize-2);
+  });
 
-</div>
+  ctx.fillStyle = '#f87171';
+  ctx.beginPath();
+  ctx.arc(food.x * gridSize + gridSize/2, food.y * gridSize + gridSize/2, gridSize/2-2, 0, Math.PI * 2);
+  ctx.fill();
+}
 
----
+function update() {
+  if (gameOver) return;
 
-<div align="center">
+  const head = {x: snake[0].x + direction.x, y: snake[0].y + direction.y};
 
-![](https://komarev.com/ghpvc/?username=juankAnez&color=brightgreen&style=flat-square&label=visitas+al+perfil)
+  if (head.x < 0 || head.x >= tileCount || head.y < 0 || head.y >= tileCount) {
+    gameOver = true;
+    alert('¡Game Over! Puntuación: ' + score);
+    return;
+  }
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:639922,100:3B6D11&height=80&section=footer"/>
+  if (snake.some(segment => segment.x === head.x && segment.y === head.y)) {
+    gameOver = true;
+    alert('¡Game Over! Puntuación: ' + score);
+    return;
+  }
 
-</div>
+  snake.unshift(head);
+
+  if (head.x === food.x && head.y === food.y) {
+    score++;
+    document.getElementById('score').textContent = score;
+    generateFood();
+  } else {
+    snake.pop();
+  }
+}
+
+function gameLoop() {
+  update();
+  draw();
+  setTimeout(gameLoop, 130);
+}
+
+document.addEventListener('keydown', (e) => {
+  switch(e.key) {
+    case 'ArrowUp': if (direction.y === 0) { direction = {x: 0, y: -1}; } break;
+    case 'ArrowDown': if (direction.y === 0) { direction = {x: 0, y: 1}; } break;
+    case 'ArrowLeft': if (direction.x === 0) { direction = {x: -1, y: 0}; } break;
+    case 'ArrowRight': if (direction.x === 0) { direction = {x: 1, y: 0}; } break;
+  }
+});
+
+generateFood();
+gameLoop();
+</script>
+</body>
+</html>
