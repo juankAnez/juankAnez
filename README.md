@@ -110,19 +110,20 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Snake — tu contribution graph con culebrita
 
 <div align="center">
 
-<!-- La culebrita famosa que se come tus commits. Generada automáticamente cada 24h por .github/workflows/snake.yml -->
-<!-- Si aún no ves la animación, haz un push y espera a que el workflow cree el archivo output/snake.svg -->
+<!-- CUADRO ESTILO GITHUB: la snake vive DENTRO del grid. Este SVG ya existe en la branch `output` asi que nunca se ve roto -->
+<a href="https://github.com/juankAnez">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake.svg" width="100%"/>
+  <img alt="snake animation - contribution grid" src="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
+</a>
 
-> Si la culebrita no aparece aún, es porque el workflow `snake.yml` todavía no ha corrido. Haz `git push` y en ~2 min se generará en la branch `output`.
+<sub>🐍 La culebrita recorre tus cuadritos verdes de commits. Se actualiza sola cada 24h via <code>.github/workflows/snake.yml</code> (Platane/snk).</sub>
 
 </div>
 
@@ -226,10 +227,6 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
 ---
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake.svg" alt="snake fallback" width="100%" onerror="this.style.display='none'"/>
-
-<br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:639922,100:3B6D11&height=80&section=footer"/>
 
