@@ -8,7 +8,6 @@
   <a href="https://github.com/juankAnez?tab=followers"><img src="https://img.shields.io/github/followers/juankAnez?style=flat-square&color=639922&label=Followers" alt="followers"/></a>
   <a href="https://github.com/juankAnez"><img src="https://img.shields.io/badge/Repos-13-3B6D11?style=flat-square" alt="repos"/></a>
   <a href="https://github.com/juankAnez"><img src="https://img.shields.io/badge/Location-Riohacha%2C%20Colombia-0077B5?style=flat-square" alt="location"/></a>
-  <img src="https://komarev.com/ghpvc/?username=juankAnez&color=639922&style=flat-square&label=Visitas" alt="visitas"/>
 </p>
 
 </div>
@@ -85,32 +84,22 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
 <a href="https://github.com/juankAnez">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=juankAnez&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="stats"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs?username=juankAnez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="top-langs"/>
-</a>
+<br/>
+
 
 <br/>
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=juankAnez&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=639922&fire=639922&currStreakLabel=639922" alt="streak"/>
-
 <br/>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=juankAnez&theme=tokyo-night&hide_border=true&area=true&color=639922&line=639922&point=3B6D11" alt="activity-graph"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=juankAnez&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=6" alt="trophies"/>
 
 </div>
 
 ---
 
-## 🐍 Snake — tu contribution graph con culebrita
 
 <div align="center">
 
@@ -119,17 +108,11 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation - contribution grid" src="https://raw.githubusercontent.com/juankAnez/juankAnez/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 </a>
 
-<sub>🐍 La culebrita recorre tus cuadritos verdes de commits. Se actualiza sola cada 24h via <code>.github/workflows/snake.yml</code> (Platane/snk).</sub>
 
-</div>
-
----
-
-## 📌 Proyectos Destacados
+## Proyectos Destacados
 
 > Repos reales ordenados por actividad reciente. Click en la card para ir al repo.
 
@@ -139,13 +122,11 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
   <tr>
     <td width="50%">
       <a href="https://github.com/juankAnez/inventario_sucursal-frontend" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=inventario_sucursal-frontend&theme=tokyonight&hide_border=true&show_owner=true" alt="inventario_sucursal-frontend" width="100%"/>
       </a>
       <p><b>⭐ 1</b> · Frontend Angular + TypeScript para gestión de inventario por sucursales. <code>TS 40% · CSS 31% · HTML 28%</code></p>
     </td>
     <td width="50%">
       <a href="https://github.com/juankAnez/inventario_sucursal-backend" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=inventario_sucursal-backend&theme=tokyonight&hide_border=true&show_owner=true" alt="inventario_sucursal-backend" width="100%"/>
       </a>
       <p>Backend Python para el sistema de inventario. <code>Python 96%</code> · API + lógica de negocio.</p>
     </td>
@@ -153,13 +134,11 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
   <tr>
     <td width="50%">
       <a href="https://github.com/juankAnez/predicci-n-deportiva" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=predicci-n-deportiva&theme=tokyonight&hide_border=true&show_owner=true" alt="prediccion-deportiva" width="100%"/>
       </a>
       <p>Análisis de datos para predecir partidos y resultados del mundial. <code>Python 77% · JS 12%</code></p>
     </td>
     <td width="50%">
       <a href="https://github.com/juankAnez/prueba-de-calidad" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=prueba-de-calidad&theme=tokyonight&hide_border=true&show_owner=true" alt="prueba-de-calidad" width="100%"/>
       </a>
       <p>Suite de pruebas de calidad con IA para apps web modernas. <code>Python 55% · JS 43%</code></p>
     </td>
@@ -167,13 +146,11 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
   <tr>
     <td width="50%">
       <a href="https://github.com/juankAnez/electronic-app" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=electronic-app&theme=tokyonight&hide_border=true&show_owner=true" alt="electronic-app" width="100%"/>
       </a>
       <p>App electrónica multiplataforma. <code>Python 78% · C++ 9% · Dart 4%</code></p>
     </td>
     <td width="50%">
       <a href="https://github.com/juankAnez/AppMatch" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=AppMatch&theme=tokyonight&hide_border=true&show_owner=true" alt="AppMatch" width="100%"/>
       </a>
       <p>Juego móvil para parejas. <code>JavaScript 100%</code> · Idea divertida y ligera.</p>
     </td>
@@ -186,19 +163,16 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
   <tr>
     <td width="33%">
       <a href="https://github.com/juankAnez/reservation" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=reservation&theme=tokyonight&hide_border=true&show_owner=true" alt="reservation" width="100%"/>
       </a>
       <p>Certificación FullStack · <code>Java 100%</code></p>
     </td>
     <td width="33%">
       <a href="https://github.com/juankAnez/baruchStore" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=baruchStore&theme=tokyonight&hide_border=true&show_owner=true" alt="baruchStore" width="100%"/>
       </a>
       <p>Catálogo e-commerce · <code>HTML 50% · CSS 32%</code></p>
     </td>
     <td width="33%">
       <a href="https://github.com/juankAnez/guia-dw" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=juankAnez&repo=guia-dw&theme=tokyonight&hide_border=true&show_owner=true" alt="guia-dw" width="100%"/>
       </a>
       <p>Guía Desarrollo Web (template) · <code>Python 41% · JS 30%</code></p>
     </td>
@@ -219,15 +193,4 @@ I'm a **Full Stack Developer** from Riohacha, Colombia. I love tearing projects 
 <!-- <a href="https://TU_PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-3B6D11?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio"/></a> -->
 <!-- <a href="mailto:TU_EMAIL"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a> -->
 
-<br/>
-<sub>💡 Tip: Edita este README y descomenta las líneas de arriba poniendo tus links reales de LinkedIn / Portfolio / Email para que los badges funcionen.</sub>
 
-</div>
-
----
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:639922,100:3B6D11&height=80&section=footer"/>
-
-</div>
